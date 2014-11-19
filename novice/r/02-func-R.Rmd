@@ -35,7 +35,7 @@ fahr_to_kelvin <- function(temp) {
 ```
 
 We define `fahr_to_kelvin` by assigning it to the output of `function`.
-The list of argument names are containted within parentheses.
+The list of argument names are contained within parentheses.
 Next, the [body](../../gloss.html#function-body) of the function--the statements that are executed when it runs--is contained within curly braces (`{}`).
 The statements in the body are indented by two spaces.
 This makes the code easier to read but does not affect how the code operates. 
@@ -190,7 +190,7 @@ For context, R uses the terminology "environments" instead of frames.
 [chapter]: http://adv-r.had.co.nz/Environments.html
 [adv-r]: http://adv-r.had.co.nz/
 
-Why go to all this trouble? Well, here's a function called `span` that calculates the difference between the mininum and maximum values in an array:
+Why go to all this trouble? Well, here's a function called `span` that calculates the difference between the minimum and maximum values in an array:
 
 ```{r}
 span <- function(a) {
